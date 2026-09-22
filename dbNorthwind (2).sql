@@ -1,11 +1,11 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
+-- phpMyAdmin SQL การส่งออก
+-- เวอร์ชัน 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Mar 22, 2025 at 08:04 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.10
+-- โฮสต์: 127.0.0.1
+-- เวลาสร้าง: มี.ค. 22, 2025 เวลา 08:04 น.
+-- เวอร์ชันเซิร์ฟเวอร์: 10.4.14-MariaDB
+-- เวอร์ชัน PHP: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_northwind_cpe2204`
+-- ฐานข้อมูล: `db_northwind_cpe2204`
 --
 CREATE DATABASE IF NOT EXISTS `db_northwind` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `db_northwind`;
@@ -26,7 +26,7 @@ USE `db_northwind`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_categories`
+-- โครงสร้างตารางสำหรับตาราง `tb_categories`
 --
 
 DROP TABLE IF EXISTS `tb_categories`;
@@ -37,7 +37,7 @@ CREATE TABLE `tb_categories` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `tb_categories`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_categories`
 --
 
 INSERT INTO `tb_categories` VALUES
@@ -54,7 +54,7 @@ INSERT INTO `tb_categories` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_customers`
+-- โครงสร้างตารางสำหรับตาราง `tb_customers`
 --
 
 DROP TABLE IF EXISTS `tb_customers`;
@@ -69,7 +69,7 @@ CREATE TABLE `tb_customers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_customers`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_customers`
 --
 
 INSERT INTO `tb_customers` VALUES
@@ -168,7 +168,7 @@ INSERT INTO `tb_customers` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_employees`
+-- โครงสร้างตารางสำหรับตาราง `tb_employees`
 --
 
 DROP TABLE IF EXISTS `tb_employees`;
@@ -182,7 +182,7 @@ CREATE TABLE `tb_employees` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_employees`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_employees`
 --
 
 INSERT INTO `tb_employees` VALUES
@@ -200,7 +200,7 @@ INSERT INTO `tb_employees` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_orderdetails`
+-- โครงสร้างตารางสำหรับตาราง `tb_orderdetails`
 --
 
 DROP TABLE IF EXISTS `tb_orderdetails`;
@@ -212,7 +212,7 @@ CREATE TABLE `tb_orderdetails` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_orderdetails`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_orderdetails`
 --
 
 INSERT INTO `tb_orderdetails` VALUES
@@ -738,7 +738,7 @@ INSERT INTO `tb_orderdetails` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_orders`
+-- โครงสร้างตารางสำหรับตาราง `tb_orders`
 --
 
 DROP TABLE IF EXISTS `tb_orders`;
@@ -751,7 +751,7 @@ CREATE TABLE `tb_orders` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_orders`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_orders`
 --
 
 INSERT INTO `tb_orders` VALUES
@@ -955,7 +955,7 @@ INSERT INTO `tb_orders` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_products`
+-- โครงสร้างตารางสำหรับตาราง `tb_products`
 --
 
 DROP TABLE IF EXISTS `tb_products`;
@@ -969,7 +969,7 @@ CREATE TABLE `tb_products` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_products`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_products`
 --
 
 INSERT INTO `tb_products` VALUES
@@ -1056,7 +1056,7 @@ INSERT INTO `tb_products` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_shippers`
+-- โครงสร้างตารางสำหรับตาราง `tb_shippers`
 --
 
 DROP TABLE IF EXISTS `tb_shippers`;
@@ -1067,7 +1067,7 @@ CREATE TABLE `tb_shippers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_shippers`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_shippers`
 --
 
 INSERT INTO `tb_shippers` VALUES
@@ -1078,7 +1078,7 @@ INSERT INTO `tb_shippers` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_student`
+-- โครงสร้างตารางสำหรับตาราง `tb_student`
 --
 
 DROP TABLE IF EXISTS `tb_student`;
@@ -1090,7 +1090,7 @@ CREATE TABLE `tb_student` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_student`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_student`
 --
 
 INSERT INTO `tb_student` VALUES
@@ -1099,7 +1099,7 @@ INSERT INTO `tb_student` VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_suppliers`
+-- โครงสร้างตารางสำหรับตาราง `tb_suppliers`
 --
 
 DROP TABLE IF EXISTS `tb_suppliers`;
@@ -1115,7 +1115,7 @@ CREATE TABLE `tb_suppliers` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `tb_suppliers`
+-- การส่งออกข้อมูลสำหรับตาราง `tb_suppliers`
 --
 
 INSERT INTO `tb_suppliers` VALUES
@@ -1150,69 +1150,69 @@ INSERT INTO `tb_suppliers` VALUES
 (29, 'For?ts d\'?rables', 'Chantal Goulet', '148 rue Chasseur', 'Ste-Hyacinthe', 'J2S 7S8', 'Canada', '(514) 555-2955');
 
 --
--- Indexes for dumped tables
+-- ดัชนีสำหรับตารางที่ส่งออก
 --
 
 --
--- Indexes for table `tb_categories`
+-- ดัชนีสำหรับตาราง `tb_categories`
 --
 ALTER TABLE `tb_categories`
   ADD PRIMARY KEY (`i_CategoryID`);
 
 --
--- Indexes for table `tb_customers`
+-- ดัชนีสำหรับตาราง `tb_customers`
 --
 ALTER TABLE `tb_customers`
   ADD PRIMARY KEY (`i_customerid`);
 
 --
--- Indexes for table `tb_employees`
+-- ดัชนีสำหรับตาราง `tb_employees`
 --
 ALTER TABLE `tb_employees`
   ADD PRIMARY KEY (`i_EmployeeID`);
 
 --
--- Indexes for table `tb_orderdetails`
+-- ดัชนีสำหรับตาราง `tb_orderdetails`
 --
 ALTER TABLE `tb_orderdetails`
   ADD PRIMARY KEY (`i_OrderDetailID`);
 
 --
--- Indexes for table `tb_orders`
+-- ดัชนีสำหรับตาราง `tb_orders`
 --
 ALTER TABLE `tb_orders`
   ADD PRIMARY KEY (`i_OrderID`);
 
 --
--- Indexes for table `tb_products`
+-- ดัชนีสำหรับตาราง `tb_products`
 --
 ALTER TABLE `tb_products`
   ADD PRIMARY KEY (`i_ProductID`);
 
 --
--- Indexes for table `tb_shippers`
+-- ดัชนีสำหรับตาราง `tb_shippers`
 --
 ALTER TABLE `tb_shippers`
   ADD PRIMARY KEY (`i_ShipperID`);
 
 --
--- Indexes for table `tb_student`
+-- ดัชนีสำหรับตาราง `tb_student`
 --
 ALTER TABLE `tb_student`
   ADD PRIMARY KEY (`c_stu_id`);
 
 --
--- Indexes for table `tb_suppliers`
+-- ดัชนีสำหรับตาราง `tb_suppliers`
 --
 ALTER TABLE `tb_suppliers`
   ADD PRIMARY KEY (`i_SupplierID`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT สำหรับตารางที่ส่งออก
 --
 
 --
--- AUTO_INCREMENT for table `tb_products`
+-- AUTO_INCREMENT สำหรับตาราง `tb_products`
 --
 ALTER TABLE `tb_products`
   MODIFY `i_ProductID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=103;
